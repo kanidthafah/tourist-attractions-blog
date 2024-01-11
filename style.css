@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Prompt', sans-serif;
+}
+
+header nav .navbar-brand {
+    font-family: 'Caveat Brush', cursive;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+header nav .nav-link{
+    transition: 0.2s;
+}
+
+header nav .nav-link:hover {
+    transform: scale(1.1);
+}
+
+#home {
+    position: relative;
+    /* https://images.unsplash.com/photo-1606017259057-527114e27826?auto=format&fit=crop&q=80&w=1964&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D */
+    background-image: url("image/home-img.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 8rem 5rem 3rem; 
+}
+
+#home h1 {
+    font-family: 'Caveat Brush', cursive;
+}
+
+#home h3, .card-img-overlay>p {
+    font-family: 'Poppins', sans-serif;
+}
+
+#home .card {
+    transition: 0.3s ease-in-out;
+}
+
+#home .card:hover {
+    transform: scale(1.1);
+    filter: brightness(110%);
+    z-index: 1;
+}
+
+#home .card-img {
+    width: 18rem;
+    height: 12rem;
+}
+
+#about h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+#top .card-top-img {
+    width: 18rem;
+    height: 18rem;
+}
+
+#top .material-symbols-outlined {
+    color: #333;
+}
+
+#top .material-symbols-outlined:active {
+    transform: translate(0.2rem, 0.2rem);
+}
+
+#top .img-thumbnail {
+    height: 20rem;
+}
+
+#region-content .card, #region-content .card-img{
+    height: 18rem;
+}
+
+
+#region-content .modal-body .img-thumbnail {
+    height: 20rem;
+}
+
+#region-content .card-img-overlay {
+    text-shadow: 0.05rem -0.06rem 0.3rem rgba(0, 0, 0, 0.4);
+}
+
+#region-content .card {
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+
+#region-content .card:hover {
+    transform: scale(1.1);
+    filter: brightness(110%);
+    z-index: 1;
+}
+
+footer {
+    box-shadow: 0.05rem -0.06rem 0.9rem rgba(0, 0, 0, 0.05);
+}
+
+
+
